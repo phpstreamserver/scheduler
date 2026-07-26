@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PHPStreamServer\Plugin\Scheduler\Command;
+namespace PHPStreamServer\Plugin\Scheduler\ConsoleCommand;
 
 use PHPStreamServer\Core\Console\Command;
 use PHPStreamServer\Core\Console\Table;
 use PHPStreamServer\Core\MessageBus\ExternalProcessMessageBus;
-use PHPStreamServer\Plugin\Scheduler\Message\GetWorkersCommand;
+use PHPStreamServer\Plugin\Scheduler\Command\GetWorkersCommand;
 use PHPStreamServer\Plugin\Scheduler\WorkerInfo;
 
 /**

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PHPStreamServer\Plugin\Scheduler\Message;
+namespace PHPStreamServer\Plugin\Scheduler\Event;
 
 use PHPStreamServer\Core\MessageBus\MessageInterface;
 
